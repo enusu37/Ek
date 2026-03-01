@@ -12,14 +12,14 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change language using ISO 639-1 code",
-  "nickNameBot": "─⃜͢͢͟͟͞͞❥⍣⃟─͢❥Տʜɪᴢᴜᴋꫝᥫ⍣⃟─⃜⃜͢͢─❥",
-  "prefix": "/",
+  "nickNameBot": "─꯭─⃝‌‌𝐄𝐛𝐫𝐚𝐡𝐢𝐦 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭",
+  "prefix": "+",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
   "adminBot": [
-    "100001609058878",
+    "100065568407761",
     "100065116972569",
     ""
   ],
