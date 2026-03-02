@@ -19,36 +19,7 @@ module.exports = {
       session2: "noon",
       session3: "afternoon",
       session4: "evening",
-      defaultWelcomeMessage: "welcomeMessage = "`
-╔════════════════════╗
-   ◇ 💠 আসসালামু আলাইকুম 💠 ◇
-╚════════════════════╝
-
-🖤 𝗗𝗘𝗔𝗥 𝗡𝗘𝗪 𝗠𝗘𝗠𝗕𝗘𝗥 ↓
-➤ ${userName} 🌸
-
-██████ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 ██████
-
-⬇️ 𝗧𝗢 →
-🌸 ${threadName} 🌸
-
-🎉 𝗬𝗢𝗨'𝗥𝗘 𝗧𝗛𝗘 『${memberCount}』𝗠𝗘𝗠𝗕𝗘𝗥  
-𝗢𝗙 𝗧𝗛𝗜𝗦 𝗚𝗥𝗢𝗨𝗣 🎊
-
-👤 𝗔𝗗𝗗𝗘𝗗 𝗕𝗬 ↓
-➤ ${inviterName}
-
-🌟 আশা করি আপনি এখানে অনেক মজা করবেন,
-হাসবেন, আড্ডা দিবেন 🥰  
-সবার সাথে মিলে সুন্দর বন্ধুত্ব গড়ে তুলবেন 💞
-
-⚡ 𝗚𝗥𝗢𝗨𝗣 𝗥𝗨𝗟𝗘𝗦 :
-➤ সবার প্রতি সম্মান দেখাবেন 🤝  
-➤ কোনো প্রকার অশ্লীলতা চলবে না 🚫  
-➤ এডমিনের নির্দেশ মানতে হবে ✅
-
- ────꯭─⃝‌‌𝐄𝐛𝐫𝐚𝐡𝐢𝐦 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭────
-",
+      defaultWelcomeMessage: "𝐖𝐄𝐋𝐂𝐎𝐌𝐄 {userTag}",
       botAddedMessage:
         "━━━━━━━━━━━━━━━━━━━\n🤖 ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ! 💖\n\n⚙️ ʙᴏᴛ ᴘʀᴇꜰɪx : /\n📜 ᴛʏᴘᴇ /help ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs\n\n✨ ʟᴇᴛ's ᴍᴀᴋᴇ ᴛʜɪs ɢʀᴏᴜᴘ ᴇᴠᴇɴ ᴍᴏʀᴇ ꜰᴜɴ ᴛᴏɢᴇᴛʜᴇʀ! 😄\n━━━━━━━━━━━━━━━━━━━"
     }
@@ -571,4 +542,4 @@ async function createWelcomeCard({ userName, userTag, threadName, memberCount, i
   await fs.writeFile(tempPath, buffer);
   
   return tempPath;
-}
+        }
